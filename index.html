@@ -3,79 +3,237 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hashli – Klassensprecherin</title>
+
+  <title>Hashli – Schülersprecherin</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #111827, #312e81);
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
       color: white;
-      text-align: center;
-    }
-
-    .box {
-      max-width: 700px;
-      margin: 60px auto;
-      padding: 35px 20px;
-      background: rgba(255,255,255,0.1);
-      border-radius: 25px;
-    }
-
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 25px;
-    }
-
-    p {
-      font-size: 18px;
       line-height: 1.6;
     }
 
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 25px;
-      background: white;
-      color: #312e81;
-      border-radius: 15px;
-      text-decoration: none;
-      font-weight: bold;
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 25px;
     }
 
-    .button:hover {
-      transform: scale(1.05);
+    .hero {
+      text-align: center;
+      padding: 70px 20px 45px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #cccccc;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #292929;
+      border-radius: 22px;
+      padding: 28px;
+      margin: 22px 0;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    }
+
+    .card h2 {
+      font-size: 25px;
+      margin-top: 0;
+    }
+
+    .card p {
+      font-size: 17px;
+      color: #eeeeee;
+    }
+
+    .final {
+      text-align: center;
+      padding: 50px 20px 70px;
+    }
+
+    .final h2 {
+      font-size: 30px;
+    }
+
+    .final h1 {
+      font-size: 38px;
+    }
+
+    .emoji {
+      font-size: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      .card h2 {
+        font-size: 22px;
+      }
+
+      .final h1 {
+        font-size: 30px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <div class="box">
-    <h1>✨ Hashli for Klassensprecherin ✨</h1>
+  <div class="container">
 
-    <h2>Warum solltest du mich wählen?</h2>
+    <section class="hero">
+      <div class="emoji">🗳️ 👋</div>
 
-    <p>
-      Ich will unsere Klasse nicht langweilig machen 😭
-      <br>
-      Ich höre euch zu, nehme eure Ideen ernst und versuche,
-      dass wir als Klasse mehr zusammen machen.
-    </p>
+      <h1>HI SCHÜLER!</h1>
 
-    <p>
-      💬 Eure Meinung zählt<br>
-      🤝 Gemeinsam statt allein<br>
-      🎉 Mehr coole Aktionen
-    </p>
+      <p>
+        Ich bin <strong>Hashli</strong> – und ich kandidiere als
+        <strong>Schülersprecherin!</strong>
+      </p>
 
-    <a class="button" href="#">
-      🗳️ Wählt Hashli!
-    </a>
+      <p>
+        Ich möchte nicht einfach nur den Titel „Schülersprecherin“ haben.
+        Ich möchte wirklich etwas an unserer Schule verändern.
+      </p>
+    </section>
+
+
+    <div class="card">
+      <h2>💧 MEHR WASSERSPENDER</h2>
+
+      <p>
+        Wir haben 474 Schüler und ca. 60 Lehrer – warum haben wir dann nur
+        einen einzigen Wasserspender?
+      </p>
+
+      <p>
+        Ich finde, wir sollten mehr Wasserspender an der Schule haben,
+        damit nicht jedes Mal eine riesige Schlange entsteht.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>🏆 MEHR TURNIERE</h2>
+
+      <p>
+        Ich möchte mehr Turniere veranstalten – egal ob Fußball,
+        Volleyball oder Basketball.
+      </p>
+
+      <p>
+        Nicht nur Unterricht, sondern auch mal gemeinsam Spaß haben,
+        Teams bilden und gegeneinander antreten.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>🎃 HALLOWEEN-PARTY</h2>
+
+      <p>
+        Warum eigentlich nicht?
+      </p>
+
+      <p>
+        Eine richtige Halloween-Party mit Musik, Deko, Spielen
+        und coolen Aktionen.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>🎄 WEIHNACHTS-PARTY</h2>
+
+      <p>
+        Und natürlich darf eine Weihnachtsfeier nicht fehlen!
+      </p>
+
+      <p>
+        Gemeinsam das Jahr ausklingen lassen und einfach mal
+        eine gute Zeit haben.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>🎨 UNSERE WÄNDE BRAUCHEN EIN UPDATE!</h2>
+
+      <p>
+        Warum müssen unsere Wände teilweise noch aussehen,
+        als wären wir in der Grundschule?
+      </p>
+
+      <p>
+        Ich möchte modernere, coolere und schlichtere Gestaltung,
+        bei der sich Schüler auch wirklich angesprochen fühlen.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>💸 GELD SINNVOLL INVESTIEREN!</h2>
+
+      <p>
+        Unsere Schule gibt Geld für viele Dinge aus.
+        Aber wenn wir jeden Tag hier zur Schule gehen müssen,
+        sollten wir auch etwas davon haben.
+      </p>
+
+      <p>
+        Warum nicht in Dinge investieren, die wir Schüler
+        wirklich benutzen und sehen?
+      </p>
+
+      <p>
+        💧 Wasserspender<br>
+        🏆 Turniere<br>
+        🎉 Events<br>
+        🎨 schönere Wände<br>
+        🛋️ bessere Aufenthaltsbereiche<br>
+        …und noch vieles mehr!
+      </p>
+    </div>
+
+
+    <section class="final">
+
+      <div class="emoji">🗳️</div>
+
+      <h2>
+        WÄHLT NICHT NUR EINEN NAMEN.
+      </h2>
+
+      <h2>
+        WÄHLT IDEEN.<br>
+        WÄHLT VERÄNDERUNG.
+      </h2>
+
+      <h1>
+        HASHLI FOR SCHÜLERSPRECHERIN 🖤
+      </h1>
+
+    </section>
+
   </div>
 
 </body>
